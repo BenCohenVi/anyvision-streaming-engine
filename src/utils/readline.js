@@ -11,10 +11,7 @@ const question = (text) => new Promise((resolve) => {
 
 const getInput = async (text = '') => {
   const value = await question(text);
-  if (!+value) {
-    throw new Error('the input should be of number type');
-  }
-  return +value;
+  return value;
 };
 
 export default getInput;
