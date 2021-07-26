@@ -14,6 +14,7 @@ const stdinSource = {
         console.log('please enter a value of type number');
       }
     }
+
     console.log(`> ${key}`);
     return key;
   },
