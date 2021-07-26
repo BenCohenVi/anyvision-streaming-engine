@@ -14,7 +14,7 @@ const getInput = async (text = '') => {
   if (!+value) {
     throw new Error('the input should be of number type');
   }
-  return Number(value);
+  return +value;
 };
 
 export default getInput;
