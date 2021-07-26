@@ -1,8 +1,9 @@
 import {
   TRANSFORM, FIXED_EVENT_WINDOW, RESULT, INPUT, OUTPUT,
-} from './building-blocks/types';
+} from '../building-blocks/types';
 
 const runPipeline = async (steps) => {
+  console.log('pipeline started');
   while (true) {
     let history = [];
     let currentResult;
