@@ -1,0 +1,9 @@
+{
+  "extends": ["airbnb", "airbnb-babel"],
+  "rules": {
+    "no-console": "off",
+    "no-await-in-loop": "off",
+    "no-restricted-syntax": "off",
+    "no-constant-condition": "off"
+  }
+}
